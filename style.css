@@ -1,0 +1,46 @@
+body{
+    font-family: 'PT Serif', serif;
+}
+.main__description{
+    margin:0 200px;
+}
+.submain{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+}
+.imgs__img{
+    width: 250px;
+}
+.imgs__img img{
+    width: 200px;
+}
+.imgs__charge{
+    transform: rotate(90deg);
+    position: relative;
+    bottom: 150px;
+    left:90px;
+}
+.imgs__name{
+    bottom: 45px;
+    position: relative;
+}
+.imgs2{
+    margin-top: 60px;
+}
+
+@media(min-width: 766px){
+    .main__description{
+        display: flex;
+    }
+    .main__title{
+        width: 300px;
+    }
+    .submain{
+        margin: 90px;
+    }
+}
